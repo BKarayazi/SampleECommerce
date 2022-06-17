@@ -1,0 +1,5 @@
+﻿add-migration Initial -Context SampleECommerceDbContext
+Update-database -Context SampleECommerceDbContext
+
+add-migration Initial -Context SampleECommerceIdentityDbContext
+Update-database -Context SampleECommerceIdentityDbContext
